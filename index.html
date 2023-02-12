@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <html lang="en">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MadLibs.css">
+
+</head>
+<body>
+<p id="demo"></p> 
+
+<div id = "wrapper">
+
+<img src="mdl_logo.png" width="20%" height="auto" alt="mad libs logo">
+
+<p><h1>Please enter the following information:</h1></p>
+
+<input id="pluralNoun" placeholder="a plural noun"><br>
+<input id="noun1" placeholder="a noun"><br>
+<input id="noun2" placeholder="another noun"><br>
+<input id="song" placeholder="song"><br>
+<input id="verb" placeholder="verb"><br>
+
+<button type="button" onclick="getInputValues();">Submit</button>
+
+<div id="story" style="display:none">
+
+<h1>Learning to drive is a tricky process. <br></h1>
+<p> 1 Keep two <span id="outputPluralNoun"> feet </span> on the steering wheel at all times.
+<br>
+    2 Step on the  <span id="outputNoun1"> gas </span> to speed up and the <span id="outputNoun2">  brake  </span> to slow down.
+<br>
+    3 While driving make sure to <span id="outputsong"> ! </span> when driving on Highways.
+<br>
+    4 Honk when you see <span id="outputVerb"> lights </span> on a street sign. </p>
+
+<button onclick="goAgain()">Go Again</button>
+
+</div>
+</div>
+
+<script src="MadLibs.js"></script>
+</body>
+</html> 

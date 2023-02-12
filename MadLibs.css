@@ -1,0 +1,20 @@
+ 
+        #wrapper { background-color:rgb(196, 255, 229);
+                    width: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding: 2em;}
+         p{
+                color: rgb(255, 153, 0);
+
+                    }
+        span{
+                font-style: italic;
+                color: rgb(109, 0, 128);
+                font: bold;
+
+                    }
+        h1{
+              color:rgb(42, 165, 151);
+              font: bold;
+        }
